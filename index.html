@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Dojo Weather</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+    <div class="nav-bar">
+            <h1>DojoWeather</h1>
+        <div class="nav-right">
+            <ul>
+                <li>Burbank</li>
+                <li>Chicago</li>
+                <li>Dallas</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Main Section -->
+    <main>
+        <!-- City and Drop Down -->
+        <div class="city-info">
+            <h2>San Jose</h2>
+            <div class="dropdown-temp">
+                <p>show temperature in</p>
+                <form action="#">
+                    <select name="temp" id="temp">
+                        <option value="celcius"><span>&#8451;</span></option>
+                        <option value="fahrenheit"><span>&#8457;</span></option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <!-- Forecast -->
+        <div class="forecast">
+            <div class="temp-containers">
+                <h3>Today</h3>
+                <img src="./imgs/some_rain.png" alt="rain">
+                <p>some rain</p>
+                <div class="temp-numbers">
+                    <p class="temp-1">75&#176;</p>
+                    <p class="temp-2">65&#176;</p>
+                </div>
+            </div>
+            <div class="temp-containers">
+                <h3>Tomorrow</h3>
+                <img src="./imgs/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="temp-numbers">
+                    <p class="temp-1">80&#176;</p>
+                    <p class="temp-2">66&#176;</p>
+                </div>
+            </div>
+            <div class="temp-containers">
+                <h3>Friday</h3>
+                <img src="./imgs/some_clouds.png" alt="clouds">
+                <p>some clouds</p>
+                <div class="temp-numbers">
+                    <p class="temp-1">69&#176;</p>
+                    <p class="temp-2">61&#176;</p>
+                </div>
+            </div>
+            <div class="temp-containers">
+                <h3>Saturday</h3>
+                <img src="./imgs/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="temp-numbers">
+                    <p class="temp-1">78&#176;</p>
+                    <p class="temp-2">70&#176;</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(159,197,248);
+    padding: 15px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+} 
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+.city-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid black;
+    padding: 20px;
+    width: 55%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.dropdown-temp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+select {
+    width: 50px;
+    height: 30px;
+    border: 4px solid black;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.temp-containers img {
+    height: 130px;
+    border-radius: 50%;
+}
+
+.temp-containers {
+    background-color: rgb(238,238,238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.temp-numbers {
+    display :flex;
+    justify-content: space-between;
+    gap: 45px;
+    font-size: 30px;;
+}
+
+.temp-1 {
+    color: rgb(207,42,39);
+    font-weight: bold;
+}
+
+.temp-2 {
+    color: rgb(43,120,228);
+    font-weight: bold;
+}
