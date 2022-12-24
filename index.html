@@ -28,9 +28,9 @@
             <div class="dropdown-temp">
                 <p>show temperature in</p>
                 <form action="#">
-                    <select name="temp" id="temp">
-                        <option value="celsius"><span>&#8451;</span></option>
-                        <option value="fahrenheit"><span>&#8457;</span></option>
+                    <select onchange="tempControl(this)" name="temp" id="temp">
+                        <option value="celsius">°C</option>
+                        <option value="fahrenheit">°F</option>
                     </select>
                 </form>
             </div>
@@ -42,8 +42,8 @@
                 <img src="./imgs/some_rain.png" alt="rain">
                 <p>some rain</p>
                 <div class="temp-numbers">
-                    <p class="temp-1">75&#176;</p>
-                    <p class="temp-2">65&#176;</p>
+                    <p class="high" id="temp1">24</p>
+                    <p class="low" id="temp2">18</p>
                 </div>
             </div>
             <div class="temp-containers">
@@ -51,8 +51,8 @@
                 <img src="./imgs/some_sun.png" alt="sun">
                 <p>some sun</p>
                 <div class="temp-numbers">
-                    <p class="temp-1">80&#176;</p>
-                    <p class="temp-2">66&#176;</p>
+                    <p class="high" id="temp3">27</p>
+                    <p class="low" id="temp4">19</p>
                 </div>
             </div>
             <div class="temp-containers">
@@ -60,8 +60,8 @@
                 <img src="./imgs/some_clouds.png" alt="clouds">
                 <p>some clouds</p>
                 <div class="temp-numbers">
-                    <p class="temp-1">69&#176;</p>
-                    <p class="temp-2">61&#176;</p>
+                    <p class="high" id="temp5">21</p>
+                    <p class="low" id="temp6">16</p>
                 </div>
             </div>
             <div class="temp-containers">
@@ -69,8 +69,8 @@
                 <img src="./imgs/some_sun.png" alt="sun">
                 <p>some sun</p>
                 <div class="temp-numbers">
-                    <p class="temp-1">78&#176;</p>
-                    <p class="temp-2">70&#176;</p>
+                    <p class="high" id="temp7">26</p>
+                    <p class="low" id="temp8">21</p>
                 </div>
             </div>
         </div>

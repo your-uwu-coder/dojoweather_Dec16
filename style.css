@@ -88,14 +88,18 @@ select {
     font-size: 30px;
 }
 
-.temp-1 {
+.high {
     color: rgb(207,42,39);
     font-weight: bold;
 }
 
-.temp-2 {
+.low {
     color: rgb(43,120,228);
     font-weight: bold;
+}
+
+.high::after, .low::after {
+    content: "°";
 }
 
 .alert-section {
